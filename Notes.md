@@ -18,4 +18,4 @@ We can start writing the code now for the following:
 For next week:
   - Jonathan - Split up work to make generic code into small tickets
   - Anjana - TBD
-  - Alexa - Look into iFeatures and see what looks useful (https://github.com/Superzchen/iFeature/)
+  - Alexa - Look into iFeatures and see what looks useful (https://github.com/Superzchen/iFeature/ or https://ifeature.erc.monash.edu/)
