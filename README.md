@@ -5,7 +5,7 @@ Store some links and documents for research
 https://docs.google.com/document/d/1IINRHCoMuV6ceT43C0L1brrVwJvOHVUgu_7_vT6IL4Q/edit
 
 #The language of proteins: NLP, machine learning & protein sequences
-# https://www.sciencedirect.com/science/article/pii/S2001037021000945
+https://www.sciencedirect.com/science/article/pii/S2001037021000945
 #shai recommends reading the METHODS section
 
 #Embeddings from protein language models predict conservation and variant effects
