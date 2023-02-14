@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T00:55:58.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="QC_SDoPTeFcic01MwjCI" version="20.5.1" type="github"><diagram name="Page-1" id="2YBvvXClWsGukQMizWep">7ZlLc5swEMc/DcfMGAh+HONHm0MzTePO9CzDxqiVERHCj376rowEFpjETULTpj4Z/bV6oP1pdxk7/mS1/ShIGt/wCJjj9aKt408dz3O9YIQ/StlppdfvF8pS0EhrlTCnP8EYajWnEWSWoeScSZraYsiTBEJpaUQIvrHN7jmzV03JEhrCPCSsqX6jkYwLdRj0Kv0a6DI2K7s93bMixlgLWUwivjmQ/JnjTwTnsnhabSfA1OmZcynGfWjpLTcmIJGnDCA3I7Fb+9v1wEsf+PbL9O56dqFnWROW6xd2/KvPi+/qKItdy505CnyBVD3mK/aJ3gOjCbbGKQi6AgkCe5iWbyttvImphHlKQjV0g5SgFssVw5aLj+g3SXCIGt7DdiR4+pWIJUgthJwxkmZ0sd+GUgSEucjoGu4gK3hRKs+lWnpScqDElAuJSiYFrqFEIJncQIaP4wQ2swh9bV5wMHa8/kOu3DGGsqOU8FwO+tmCH4yujLxJzahlgjUISZGylqH4gmuIrLE9y0DwPIkaFoPpfqK9R3EB2Lai4pYA4tUFjs4SOzTRAy41sju7uakuQIl5fAC/b0SiL92ynLniEh80mr+BqdfEtE7nAVMpR2fvtxCMnWBagxSRiPmSJ4QdYnoUH7kHca64z5rgn9k6zlZ7oGkHLrCAGxwDrsmbO+qKN7/BW0SzlMgwfow7c/BXjC4T1BZcSr7CjgxBklcqGyn+cFblwSQyyoLx8Icx0ylwaJGCcNlUGAL8aent0rM6SmovFq1i22rCZ7gNU66JyI9e0KZ7BTAiMVLbafmIt/TQW3VzKywu3ONcmBkynosQ9KCay8tdPJ+Cy3PUeddRJ7DTnOudFnaGXUWd4FyM/ZfoPk5p+QHx11Rj/XNc/Hfgao80p1ZjwxOrsXp2fjXeBq9bjR2pvP5spaWlonp5+qvnyeKr30nx5Y5sDFz/tOoLz5bsDsz0/W9fZ3g8DVfEFDO+amk3bCAlQOYieSlQPIVEJU6SxXsi3KL7zYr6U1Hrv2mdX0fN6wX2FMW+Xo7ayEbNhLZOURs1UEPHsgXBwPOuo9epSF12g9SgFr36HUWvGlJmnU6RMun3HL7sL/W3ypQ11jy/o/BVy5Se/yLWsFn9+1CYV3/i+LNf</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-14T01:10:24.420Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="kG9c5xp-RP1E5QmtO1JV" version="20.5.1" type="github">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="1209" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yRsWnAj-SJC5FyagotfU-4" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="30" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yRsWnAj-SJC5FyagotfU-5" value="Model Inference" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yRsWnAj-SJC5FyagotfU-4">
+          <mxGeometry y="10" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yRsWnAj-SJC5FyagotfU-1" value="ProtCNN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yRsWnAj-SJC5FyagotfU-4">
+          <mxGeometry x="135" y="60" width="85" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yRsWnAj-SJC5FyagotfU-3" value="ProtLSTM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yRsWnAj-SJC5FyagotfU-4">
+          <mxGeometry x="20" y="60" width="85" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yRsWnAj-SJC5FyagotfU-6" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="30" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="yRsWnAj-SJC5FyagotfU-7" value="Prepare Input" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yRsWnAj-SJC5FyagotfU-6">
+          <mxGeometry x="5" y="10" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yRsWnAj-SJC5FyagotfU-8" value="Amino Acid Sequence" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yRsWnAj-SJC5FyagotfU-6">
+          <mxGeometry x="50" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yRsWnAj-SJC5FyagotfU-9" value="Tokenizer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yRsWnAj-SJC5FyagotfU-6">
+          <mxGeometry x="60" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yRsWnAj-SJC5FyagotfU-10" value="One Hot Encoding" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yRsWnAj-SJC5FyagotfU-6">
+          <mxGeometry x="60" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yRsWnAj-SJC5FyagotfU-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yRsWnAj-SJC5FyagotfU-6" source="yRsWnAj-SJC5FyagotfU-8" target="yRsWnAj-SJC5FyagotfU-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="320" as="sourcePoint" />
+            <mxPoint x="160" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRsWnAj-SJC5FyagotfU-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yRsWnAj-SJC5FyagotfU-6" source="yRsWnAj-SJC5FyagotfU-9" target="yRsWnAj-SJC5FyagotfU-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="110" as="sourcePoint" />
+            <mxPoint x="130" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRsWnAj-SJC5FyagotfU-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yRsWnAj-SJC5FyagotfU-10" target="yRsWnAj-SJC5FyagotfU-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="200" as="sourcePoint" />
+            <mxPoint x="150" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="300" />
+              <mxPoint x="280" y="300" />
+              <mxPoint x="280" y="10" />
+              <mxPoint x="425" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
