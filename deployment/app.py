@@ -134,8 +134,10 @@ def greet(Amino_Acid_Sequence):
     lstm_fam_id = prot_mappings['fam_asc2fam_id'][lstm_fam_asc]
     fam_asc = prot_mappings['id2fam_asc'][str(idx)]
     fam_id = prot_mappings['fam_asc2fam_id'][fam_asc]
+    idprobs = {prot_mappings['id2fam_asc'][str(i)]: float(joined_prediction[i]) for i in range(len(joined_prediction))}
+    famprobs = {prot_mappings['fam_asc2fam_id'][fam_asc]: pred  for fam_asc, pred in idprobs.items()}
     gc.collect()
-    return f"""
+    return famprobs, idprobs, f"""
 Input is {Amino_Acid_Sequence}.
 Processed input is:
 {processed_seq}
@@ -150,5 +152,5 @@ Raw Joined Prediction:
 {joined_prediction}
 """
 
-iface = gr.Interface(fn=greet, inputs="text", outputs="text")
+iface = gr.Interface(fn=greet, inputs="text", outputs=[gr.Label(num_top_classes=11, label="Family Accession Predictions"), gr.Label(num_top_classes=11, label="Family ID Predictions"), "text"])
 iface.launch()
